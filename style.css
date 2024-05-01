@@ -1,0 +1,91 @@
+body{
+
+    background: 
+        /*shape*/
+        linear-gradient(115deg, transparent 89%, #e8ddcb 0) -128px -96px,
+        linear-gradient(-115deg, transparent 89%, #cdb380 0) 22px -96px,
+        linear-gradient(-115deg, #036564 11%, transparent 0) -128px 54px,
+        linear-gradient(115deg, #033649 11%, transparent 0) 22px 54px,
+        
+        /*shape*/
+        linear-gradient(-25deg, #e8ddcb 11%, transparent 0) -128px -22px,
+        linear-gradient(25deg, transparent 89%, #cdb380 0) -128px 128px,
+        linear-gradient(25deg, #036564 11%, transparent 0) 22px -22px,
+        linear-gradient(-25deg, transparent 89%, #033649 0) 22px 128px,
+        /*shape*/
+        linear-gradient(-25deg, #e8ddcb 11%, transparent 0) -53px -96px,
+        linear-gradient(25deg, transparent 89%, #cdb380 0) -53px 54px,
+        linear-gradient(25deg, #036564 11%, transparent 0) 97px -96px,
+        linear-gradient(-25deg, transparent 89%, #033649 0) 97px 54px,
+        /*shape*/
+        linear-gradient(115deg, transparent 89%, #e8ddcb  0) -53px -21px,
+        linear-gradient(-115deg, #cdb380 11%, transparent 0) -53px 129px,
+        linear-gradient(-115deg, transparent 89%, #036564 0) 97px -21px,
+        linear-gradient(115deg, #033649 11%, transparent 0) 97px 129px;
+        
+    background-color: #fff;
+    background-size: 150px 150px;
+    background-repeat: repeat;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.container{
+
+    width: 500px;
+    background-color: #fff0f6;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px solid #ff85c0;
+    text-align: center;
+    border: 2px solid #ff85c0;
+}
+
+h2{
+    color: #ff84c0;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.calculator{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#ff85c0;
+}
+
+input[type="text"]{
+    width:95%;
+    padding: 10px;
+    margin-top:10px;
+    color:#ff85c0;
+}
+
+button{
+    background-color:#ff85c0;
+    color:#fff;
+    border:none;
+    margin-top: 10px;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+
+#result{
+    margin-top:20px;
+    font-size: 24px;
+    color:#ff85c0;
+}
